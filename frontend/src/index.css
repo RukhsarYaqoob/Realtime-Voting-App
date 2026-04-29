@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.input {
+  @apply w-full p-2 border rounded-md;
+}
+
+.btn {
+  @apply bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700;
+}
+
+.card {
+  @apply p-4 bg-white shadow rounded-lg hover:bg-gray-50;
+}
+
+/* Floating input style */
+.floating-input {
+  @apply relative w-full;
+}
+
+.floating-input input {
+  @apply w-full px-3 pt-5 pb-2 border border-gray-300 rounded-md
+  focus:outline-none focus:ring-2 focus:ring-indigo-500;
+}
+
+.floating-input label {
+  @apply absolute left-3 top-2 text-gray-500 text-sm
+  transition-all pointer-events-none;
+}
+
+.floating-input input:focus + label,
+.floating-input input:not(:placeholder-shown) + label {
+  @apply text-xs text-indigo-600 top-1;
+}
+
+/* Button animation */
+.btn-animated {
+  @apply w-full bg-indigo-600 text-white py-2 rounded-md
+  hover:bg-indigo-700 transition duration-300 transform hover:scale-[1.02];
+}
