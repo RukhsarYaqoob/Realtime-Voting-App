@@ -1,6 +1,6 @@
-# 🗳️ VotePulse — Live Voting App
+#  VotePulse — Live Voting App
 
-## 🎥 Project Demo
+##  Project Demo
 
 ▶️ Watch Demo:  
 👉 https://voting-app-ysgy.onrender.com/
@@ -60,7 +60,7 @@ VotePulse/
 
 ---
 
-### 🗳️ Poll Management
+###  Poll Management
 - Create new polls with multiple options
 - Edit existing polls
 - Delete polls
@@ -86,7 +86,7 @@ VotePulse/
 
 ---
 
-## 🧑‍💻 My Contribution
+## My Contribution
 
 - Developed complete **Frontend** (React + Tailwind)
 - Implemented **JWT Authentication** with protected routes
