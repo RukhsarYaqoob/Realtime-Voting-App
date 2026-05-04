@@ -14,7 +14,7 @@ const server = http.createServer(app);
 
 const allowedOrigins = process.env.CLIENT_URL
   ? process.env.CLIENT_URL.split(",")
-  : ["http://localhost:5174"];
+  : ["http://localhost:5173"];
 
 const io = new Server(server, {
   cors: {
